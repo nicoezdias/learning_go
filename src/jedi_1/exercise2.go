@@ -10,8 +10,8 @@ var z bool
 
 func main() {
 
-	fmt.Println(x)
-	fmt.Println(y)
-	fmt.Println(z)
 	fmt.Println("Zero Values")
+	fmt.Println("int", x)
+	fmt.Println("string", y)
+	fmt.Println("bool", z)
 }
